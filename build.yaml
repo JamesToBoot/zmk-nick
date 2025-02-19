@@ -20,8 +20,8 @@
 
 #  board: [ "nice_nano_v2" ]
 #  shield: [ "jc44_left", "jc44_right" ]
- include:
-   - board: nice_nano_v2
-     shield: jc44_left
-   - board: nice_nano_v2
-     shield: jc44_right
+include:
+  - board: nice_nano_v2
+    shield: jc44_left
+  - board: nice_nano_v2
+    shield: jc44_right
