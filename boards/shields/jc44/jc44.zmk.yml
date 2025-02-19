@@ -1,13 +1,13 @@
-# file_format: "1"
-# id: jc44
-# name: jc44
-# type: shield
-# url: https://github.com/foostan/crkbd/  //idk what to put here
-# requires: [pro_micro]
-# exposes: [i2c_oled]   //is this optional? I dont have a display
-# features:
-#   - keys
-#   - display //im guessing this too is optional
-# siblings:
-#   - jc44_left
-#   - jc44_right
+file_format: "1"
+id: jc44
+name: jc44
+type: shield
+url: https://github.com/foostan/crkbd/  //idk what to put here
+requires: [pro_micro]
+exposes: [i2c_oled]   //is this optional? I dont have a display
+features:
+  - keys
+  - display //im guessing this too is optional
+siblings:
+  - jc44_left
+  - jc44_right
