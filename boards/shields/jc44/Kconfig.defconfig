@@ -1,0 +1,17 @@
+if SHIELD_JC44_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "jc44"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_JC44_LEFT || SHIELD_JC44_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
